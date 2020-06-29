@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         西华大学选课脚本
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.1
 // @description  try to take over the world!
-// @author       WDF
+// @author       You
 // @match        http://*/*
 // @grant        none
 // ==/UserScript==

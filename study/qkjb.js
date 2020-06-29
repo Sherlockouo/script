@@ -105,6 +105,4 @@
   if (cnt == courseName.length)
     console.log('选课成功')
 
-
-  // Your code here...
 })();

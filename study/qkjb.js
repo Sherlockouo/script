@@ -1,26 +1,23 @@
 // ==UserScript==
 // @name         西华大学选课脚本
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.3
 // @description  try to take over the world!
-// @author       You
+// @author       WDF
 // @match        http://*/*
 // @grant        none
 // ==/UserScript==
 
-(function () {
+(function() {
   'use strict';
   /**
    * 西华大学一键式选课脚本
-   * 此脚本只能简单的代替你点击选课
-   * 不保证成功率
+   * 此脚本只能简单的帮你抢你能选的课
    * 使用此脚本是您自愿使用的造成的损失作者概不负责·
    * @author WDF
    * 有问题请联系我
    * @QQ 2921235963
    */
-
-  //把名字替换为你需要的课程名称
   let courseName = ["足球", "网球"]
 
   document.getElementsByClassName("panel panel-info")[0].getElementsByClassName("nav nav-tabs sl_nav_tabs")[0].getElementsByTagName("li")[1].getElementsByTagName("a")[0].click()
@@ -41,9 +38,9 @@
     //进入选课界面
     let courseList = document.getElementsByClassName("panel panel-info")
     for (let j = 0; j < courseName.length; j++) {
-      cnt = cnt + 1
-      if (j > 0)
-        console.log(courseName[j - 1] + '选课成功!\n')
+      cnt = cnt +1
+      if (j>0)
+        console.log(courseName[j-1] + '选课成功!\n')
 
       console.log('当前准备选择的课程:' + courseName[j])
       let i
@@ -61,7 +58,6 @@
         }
       }
       let flag = false
-      let map = new Map()
       const timer = setInterval(() => {
         if (flag)
           clearInterval(timer)
@@ -69,8 +65,7 @@
         let list = courseList[i].getElementsByClassName("panel-body table-responsive")[0].getElementsByClassName("table table-hover")[0].getElementsByClassName("body_tr")
 
         for (let k = 0; k < list.length; k++) {
-          if (map.has(k))
-            continue
+
           let o = list[k].getElementsByClassName("an")[0].getElementsByClassName("btn btn-primary btn-sm")[0]
           if (o == null)
             o = list[k].getElementsByClassName("an")[0].getElementsByClassName("btn btn-danger btn-sm")[0]
@@ -81,10 +76,7 @@
               let content = document.getElementsByClassName("modal-content")[0]
               if (content != null) {
                 let message = content.getElementsByClassName("modal-body")[0].getElementsByClassName("bootbox-body")[0].getElementsByClassName("alert alert-modal")[0].innerText
-
-                if (message == "所选教学班的上课时间与其他教学班有冲突！")
-                  map.set(k, '1')
-                else if (message == "一门课程最多可选1个志愿！")
+                if (message=="一门课程最多可选1个志愿！")
                   clearInterval(timer)
                 var ok_btn = content.getElementsByClassName("modal-footer ui-draggable-handle")[0].getElementsByClassName("btn btn-sm btn-default")[0]
                 if (ok_btn != null)
@@ -102,7 +94,7 @@
 
     }
   }, 2000)
-  if (cnt == courseName.length)
+  if(cnt==courseName.length)
     console.log('选课成功')
 
 })();

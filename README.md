@@ -28,7 +28,14 @@ useful script
         2.ctrl+A => ctrl+c 复制代码
         3.按F12 => 打开控制台 => 粘贴脚本 => 按enter即可
 
-    
+3.如果你觉得此脚本对你有用 可以请我喝一杯奶茶
+
+![wx](https://cdn.jsdelivr.net/gh/Sherlockouo/PicBase/img/learn/wx.jpg)
+
+
+![zfb9c44370b010da854.jpg](http://imgs.sherlockouo.com:80/images/2020/06/29/zfb9c44370b010da854.jpg)
+
+
     
 
 

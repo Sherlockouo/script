@@ -1,5 +1,6 @@
 # script
 useful script 
+## 欢迎各位大佬指正 
 
 1.西华大学抢课脚本
 ```$xslt
@@ -26,6 +27,7 @@ useful script
         1.修改脚本中你要选的课程
         2.ctrl+A => ctrl+c 复制代码
         3.按F12 => 打开控制台 => 粘贴脚本 => 按enter即可
+
     
     
 

@@ -1,7 +1,7 @@
 # script
 useful script 
 ## 欢迎各位大佬指正 
-
+## 1. 抢课脚本
 1.西华大学抢课脚本
 * 脚本放在study文件夹下面
 ```$xslt
@@ -37,6 +37,8 @@ useful script
 ![zfb9c44370b010da854.jpg](http://imgs.sherlockouo.com:80/images/2020/06/29/zfb9c44370b010da854.jpg)
 
 
-    
+## 2. 课程评价脚本
+# 食用方法:复制 到 console 粘贴 按enter over 
+  最后点提交
 
 

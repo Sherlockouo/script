@@ -43,5 +43,5 @@ useful script
 
 ## 3. 添加提取京东Cookie的脚本 Cookie有效期为一个月
  放在 /BaiPiaoRelated 文件夹下
- 演示网址: <a href="http://cookie.sherlockouo.com">链接地址</a>
+ 演示网址: <a href="http://cookie.sherlockouo.com/">链接地址</a>
 

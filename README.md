@@ -41,4 +41,6 @@ useful script
 # 食用方法:复制 到 console 粘贴 按enter over 
   最后点提交
 
+## 3. 添加提取京东Cookie的脚本 Cookie有效期为一个月
+ 放在 /BaiPiaoRelated 文件夹下
 

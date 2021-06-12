@@ -3,7 +3,7 @@ useful script
 ## 欢迎各位大佬指正 
 ## 1. 抢课脚本
 1.西华大学抢课脚本
-* 脚本放在study文件夹下面
+* 脚本放在<code>/scripts/XhuUniversity/Related</code>文件夹下面
 ```$xslt
  /**
    * 西华大学一键式选课脚本
@@ -33,11 +33,8 @@ useful script
 
 ![wx](https://cdn.jsdelivr.net/gh/Sherlockouo/PicBase/img/learn/wx.jpg)
 
-
-![zfb9c44370b010da854.jpg](http://imgs.sherlockouo.com:80/images/2020/06/29/zfb9c44370b010da854.jpg)
-
-
 ## 2. 课程评价脚本
+* 脚本放在<code>/scripts/XhuUniversity/Related</code>文件夹下面
 # 食用方法:复制 到 console 粘贴 按enter over 
   最后点提交
 

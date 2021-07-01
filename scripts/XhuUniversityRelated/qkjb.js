@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @author       You
+// @author       WuDingFeng
 // @match        http://*/*
 // @grant        none
 // ==/UserScript==
@@ -15,7 +15,8 @@
    * 此脚本只能简单的帮你抢你能选的课
    * 使用此脚本是您自愿使用的造成的损失作者概不负责·
    * @author WDF
-   * 有问题请联系我
+   * 有问题可以联系我
+   * 有帮助到你 还请给个star
    * @QQ 2921235963
    */
   let courseName = ["足球", "网球"]

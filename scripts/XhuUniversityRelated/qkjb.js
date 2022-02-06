@@ -17,7 +17,6 @@
    * @author WDF
    * 有问题可以联系我
    * 有帮助到你 还请给个star
-   * @QQ 2921235963
    */
   let courseName = ["足球", "网球"]
 
